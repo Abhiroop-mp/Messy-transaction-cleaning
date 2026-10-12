@@ -1,0 +1,74 @@
+transaction_id,cleaned_transaction_id,customer_name,cleaned_customer_name,amount,cleaned_amount,transaction_date,cleaned_transaction_date,status,cleaned_status,order_id,duplicate_transaction_id,date_issue,amount_issue,status_issue,name_issue,transaction_id_issue,likely_duplicate,issues,is_valid
+TX0001,TX0001,Anita Rao,Anita Rao,237,237.0,03/09/2026,,PAID,paid,ORD004,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0002,TX0002,John Smith,John Smith,374,374.0,2026/09/04,2026-09-04, paid ,paid,ORD007,False,,,,,,False,,True
+TX0003,TX0003,Joseph Mathew,Joseph Mathew,511,511.0,05-09-2026,,pending,pending,ORD010,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0004,TX0004,Arun Kumar,Arun Kumar,648,648.0,2026-09-06,2026-09-06,cancelled,cancelled,ORD013,False,,,,,,False,,True
+TX0005,TX0005,Farah Ali,Farah Ali,785,785.0,07/09/2026,,paid,paid,ORD016,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0006,TX0006,Ravi Pillai,Ravi Pillai,922,922.0,2026-09-02,2026-09-02,PAID,paid,ORD019,False,,,,,,False,,True
+TX0007,TX0007,Meera Nair,Meera Nair,1059,1059.0,03/09/2026,, paid ,paid,ORD022,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0008,TX0008,Neha Das,Neha Das,1196,1196.0,2026/09/04,2026-09-04,pending,pending,ORD025,True,,,,,,False,Repeated transaction ID,False
+TX0009,TX0009, priya menon ,Priya Menon,1333,1333.0,05-09-2026,,cancelled,cancelled,ORD028,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0010,TX0010,Kiran Shah,Kiran Shah,"1,470.00",1470.0,2026-09-06,2026-09-06,paid,paid,ORD031,False,,,,,,False,,True
+TX0011,TX0011,SARA THOMAS,Sara Thomas,1607,1607.0,07/09/2026,,PAID,paid,ORD034,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0012,TX0012,Aarav Shah,Aarav Shah,1744,1744.0,2026-09-02,2026-09-02, paid ,paid,ORD037,False,,,,,,False,,True
+TX0013,TX0013,Anita Rao,Anita Rao,1881,1881.0,03/09/2026,,pending,pending,ORD040,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0014,TX0014,John Smith,John Smith,2018,2018.0,2026/09/04,2026-09-04,cancelled,cancelled,ORD043,False,,,,,,False,,True
+TX0015,TX0015,Joseph Mathew,Joseph Mathew,2155,2155.0,05-09-2026,,paid,paid,ORD046,True,Ambiguous date,,,,,False,Ambiguous date; Repeated transaction ID,False
+TX0016,TX0016,Arun Kumar,Arun Kumar,2292,2292.0,2026-09-06,2026-09-06,PAID,paid,ORD049,False,,,,,,False,,True
+TX0017,TX0017,Farah Ali,Farah Ali,2429,2429.0,2026-15-08,, paid ,paid,ORD003,False,Invalid or unsupported date,,,,,False,Invalid or unsupported date,False
+TX0018,TX0018, ravi pillai ,Ravi Pillai,2566,2566.0,2026-09-02,2026-09-02,pending,pending,ORD006,False,,,,,,False,,True
+TX0019,TX0019,Meera Nair,Meera Nair,,,03/09/2026,,cancelled,cancelled,ORD009,False,Ambiguous date,Missing amount,,,,False,Ambiguous date; Missing amount,False
+TX0020,TX0020,Neha Das,Neha Das,"2,840.00",2840.0,2026/09/04,2026-09-04,paid,paid,ORD012,False,,,,,,False,,True
+TX0021,TX0021,Priya Menon,Priya Menon,2977,2977.0,05-09-2026,,PAID,paid,ORD015,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0022,TX0022,KIRAN SHAH,Kiran Shah,3114,3114.0,2026-09-06,2026-09-06, paid ,paid,ORD018,False,,,,,,False,,True
+TX0023,TX0023,Sara Thomas,Sara Thomas,-250,,07/09/2026,,pending,pending,ORD021,False,Ambiguous date,Negative amount,,,,False,Ambiguous date; Negative amount,False
+TX0024,TX0024,Aarav Shah,Aarav Shah,3388,3388.0,2026-09-02,2026-09-02,cancelled,cancelled,ORD024,False,,,,,,False,,True
+TX0025,TX0025,Anita Rao,Anita Rao,3525,3525.0,03/09/2026,,paid,paid,ORD027,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0026,TX0026,John Smith,John Smith,3662,3662.0,2026/09/04,2026-09-04,PAID,paid,ORD030,False,,,,,,False,,True
+TX0027,TX0027, joseph mathew ,Joseph Mathew,3799,3799.0,05-09-2026,, paid ,paid,ORD033,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0028,TX0028,Arun Kumar,Arun Kumar,3936,3936.0,2026-09-06,2026-09-06,pending,pending,ORD036,False,,,,,,False,,True
+TX0029,TX0029,Farah Ali,Farah Ali,,,07/09/2026,,cancelled,cancelled,ORD039,False,Ambiguous date,Missing amount,,,,False,Ambiguous date; Missing amount,False
+TX0030,TX0030,Ravi Pillai,Ravi Pillai,"4,210.00",4210.0,2026-09-02,2026-09-02,paid,paid,ORD042,False,,,,,,False,,True
+TX0031,TX0031,Meera Nair,Meera Nair,4347,4347.0,03/09/2026,,PAID,paid,ORD045,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0032,TX0032,Neha Das,Neha Das,4484,4484.0,2026/09/04,2026-09-04, paid ,paid,ORD048,False,,,,,,False,,True
+TX0033,TX0033,PRIYA MENON,Priya Menon,4621,4621.0,05-09-2026,,pending,pending,ORD002,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0034,TX0034,Kiran Shah,Kiran Shah,4758,4758.0,2026-15-08,,cancelled,cancelled,ORD005,False,Invalid or unsupported date,,,,,False,Invalid or unsupported date,False
+TX0035,TX0035,Sara Thomas,Sara Thomas,4895,4895.0,07/09/2026,,paid,paid,ORD008,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0036,TX0036, aarav shah ,Aarav Shah,5032,5032.0,2026-09-02,2026-09-02,PAID,paid,ORD011,False,,,,,,False,,True
+TX0037,TX0037,Anita Rao,Anita Rao,5169,5169.0,03/09/2026,, paid ,paid,ORD014,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0038,TX0038,John Smith,John Smith,,,2026/09/04,2026-09-04,pending,pending,ORD017,False,,Missing amount,,,,False,Missing amount,False
+TX0039,TX0039,Joseph Mathew,Joseph Mathew,5443,5443.0,05-09-2026,,cancelled,cancelled,ORD020,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0040,TX0040,Arun Kumar,Arun Kumar,"5,580.00",5580.0,2026-09-06,2026-09-06,paid,paid,ORD023,False,,,,,,False,,True
+TX0041,TX0041,Farah Ali,Farah Ali,117,117.0,07/09/2026,,PAID,paid,ORD026,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0042,TX0042,Ravi Pillai,Ravi Pillai,254,254.0,2026-09-02,2026-09-02, paid ,paid,ORD029,False,,,,,,False,,True
+TX0043,TX0043,Meera Nair,Meera Nair,391,391.0,03/09/2026,,pending,pending,ORD032,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0044,TX0044,NEHA DAS,Neha Das,528,528.0,2026/09/04,2026-09-04,cancelled,cancelled,ORD035,False,,,,,,False,,True
+TX0045,TX0045, priya menon ,Priya Menon,665,665.0,05-09-2026,,paid,paid,ORD038,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0046,TX0046,Kiran Shah,Kiran Shah,-250,,2026-09-06,2026-09-06,PAID,paid,ORD041,False,,Negative amount,,,,False,Negative amount,False
+TX0047,TX0047,Sara Thomas,Sara Thomas,939,939.0,07/09/2026,, paid ,paid,ORD044,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0048,TX0048,Aarav Shah,Aarav Shah,1076,1076.0,2026-09-02,2026-09-02,pending,pending,ORD047,False,,,,,,False,,True
+TX0049,TX0049,Anita Rao,Anita Rao,1213,1213.0,03/09/2026,,cancelled,cancelled,ORD001,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0050,TX0050,John Smith,John Smith,"1,350.00",1350.0,2026/09/04,2026-09-04,paid,paid,ORD004,False,,,,,,False,,True
+TX0051,TX0051,Joseph Mathew,Joseph Mathew,1487,1487.0,2026-15-08,,PAID,paid,ORD007,False,Invalid or unsupported date,,,,,False,Invalid or unsupported date,False
+TX0052,TX0052,Arun Kumar,Arun Kumar,1624,1624.0,2026-09-06,2026-09-06, paid ,paid,ORD010,False,,,,,,False,,True
+TX0053,TX0053,Farah Ali,Farah Ali,1761,1761.0,07/09/2026,,pending,pending,ORD013,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0054,TX0054, ravi pillai ,Ravi Pillai,1898,1898.0,2026-09-02,2026-09-02,cancelled,cancelled,ORD016,False,,,,,,False,,True
+TX0055,TX0055,MEERA NAIR,Meera Nair,2035,2035.0,03/09/2026,,paid,paid,ORD019,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0056,TX0056,Neha Das,Neha Das,2172,2172.0,2026/09/04,2026-09-04,PAID,paid,ORD022,False,,,,,,False,,True
+TX0057,TX0057,Priya Menon,Priya Menon,,,05-09-2026,, paid ,paid,ORD025,False,Ambiguous date,Missing amount,,,,False,Ambiguous date; Missing amount,False
+TX0058,TX0058,Kiran Shah,Kiran Shah,,,2026-09-06,2026-09-06,pending,pending,ORD028,False,,Missing amount,,,,False,Missing amount,False
+TX0059,TX0059,Sara Thomas,Sara Thomas,2583,2583.0,07/09/2026,,cancelled,cancelled,ORD031,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0060,TX0060,Aarav Shah,Aarav Shah,"2,720.00",2720.0,2026-09-02,2026-09-02,paid,paid,ORD034,False,,,,,,False,,True
+TX0061,TX0061,Anita Rao,Anita Rao,2857,2857.0,03/09/2026,,PAID,paid,ORD037,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0062,TX0062,John Smith,John Smith,2994,2994.0,2026/09/04,2026-09-04, paid ,paid,ORD040,False,,,,,,False,,True
+TX0063,TX0063, joseph mathew ,Joseph Mathew,3131,3131.0,05-09-2026,,pending,pending,ORD043,False,Ambiguous date,,,,,False,Ambiguous date,False
+TX0064,TX0064,Arun Kumar,Arun Kumar,3268,3268.0,2026-09-06,2026-09-06,cancelled,cancelled,ORD046,False,,,,,,False,,True
+TX0008,TX0008, AARAV SHAH ,Aarav Shah,"1,196.00",1196.0,2026-09-02,2026-09-02,paid,paid,ORD025,True,,,,,,False,Repeated transaction ID,False
+TX0015,TX0015,Sara Thomas,Sara Thomas,999,999.0,2026-09-03,2026-09-03,paid,paid,ORD099,True,,,,,,False,Repeated transaction ID,False
+TX0065,TX0065,Priya Menon,Priya Menon,0,0.0,2026-09-03,2026-09-03,PAID,paid,ORD077,False,,,,,,False,,True
+TX0066,TX0066,Neha Das,Neha Das,oops,,2026-09-03,2026-09-03,paid,paid,ORD078,False,,Invalid amount,,,,False,Invalid amount,False
+TX0067,TX0067,Ravi Pillai,Ravi Pillai,1400,1400.0,not a date,,paid,paid,ORD079,False,Invalid or unsupported date,,,,,False,Invalid or unsupported date,False
+TX0068,TX0068,,,500,500.0,2026-09-03,2026-09-03,paid,paid,ORD080,False,,,,Missing customer name,,False,Missing customer name,False
+TX0069,TX0069,Meera Nair,Meera Nair,1200,1200.0,2026-09-03,2026-09-03,refund,refund,ORD081,False,,,,,,True,,True
+TX0070,TX0070,Meera Nair,Meera Nair,1200,1200.0,2026-09-03,2026-09-03,paid,paid,ORD081,False,,,,,,True,,True
+TX0071,TX0071, Meera   Nair ,Meera Nair,1200.00,1200.0,03/09/2026,,paid,paid,ORD081,False,Ambiguous date,,,,,False,Ambiguous date,False

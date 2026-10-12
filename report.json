@@ -1,0 +1,10 @@
+{
+    "input_rows": 73,
+    "valid_rows": 30,
+    "invalid_rows": 43,
+    "duplicate_counts": {
+        "repeated_transaction_id": 4,
+        "likely_duplicate": 2
+    },
+    "total_revenue": 46838.0
+}
